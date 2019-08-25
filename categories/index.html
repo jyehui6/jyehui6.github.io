@@ -69,6 +69,10 @@
     			
             
     			
+    			<a q-on="click: openSlider(e, 'friends')" href="javascript:void(0)">友链</a>
+    			
+            
+    			
     			<a q-on="click: openSlider(e, 'aboutme')" href="javascript:void(0)">关于我</a>
     			
             
@@ -300,7 +304,8 @@
   <div class="outer">
     <div id="footer-info">
     	<div class="footer-centre">
-    		Copyright &copy; 2018 - 2019 Sheen
+    		Copyright &copy; 2018 - 2019 Sheen<br>
+            湘ICP备19000620号
     	</div>
       </div>
   </div>
@@ -341,17 +346,25 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
       
       
     
+      
+      
+      
+    
     
 
     <ul style="width: 70%">
     
     
       
-      <li style="width: 50%" q-on="click: openSlider(e, 'innerArchive')"><a href="javascript:void(0)" q-class="active:innerArchive">所有文章</a></li>
+      <li style="width: 33.333333333333336%" q-on="click: openSlider(e, 'innerArchive')"><a href="javascript:void(0)" q-class="active:innerArchive">所有文章</a></li>
       
         
       
-      <li style="width: 50%" q-on="click: openSlider(e, 'aboutme')"><a href="javascript:void(0)" q-class="active:aboutme">关于我</a></li>
+      <li style="width: 33.333333333333336%" q-on="click: openSlider(e, 'friends')"><a href="javascript:void(0)" q-class="active:friends">友链</a></li>
+      
+        
+      
+      <li style="width: 33.333333333333336%" q-on="click: openSlider(e, 'aboutme')"><a href="javascript:void(0)" q-class="active:aboutme">关于我</a></li>
       
         
     </ul>
@@ -376,11 +389,11 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">octopress</a>
+                <a href="javascript:void(0)" class="js-tag color3">笔记</a>
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">笔记</a>
+                <a href="javascript:void(0)" class="js-tag color5">octopress</a>
               </li>
             
             <div class="clearfix"></div>
@@ -427,11 +440,27 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
     
 
     
+    	<section class="tools-section tools-section-friends" q-show="friends">
+  		
+        <ul class="search-ul">
+          
+            <li class="search-li">
+              <a href="https://jyehui.com:3000/" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>Gogs</a>
+            </li>
+          
+            <li class="search-li">
+              <a href="http://lei.jyehui.com/" target="_blank" class="search-title"><i class="icon-quo-left icon"></i>后台管理</a>
+            </li>
+          
+        </ul>
+  		
+    	</section>
+    
 
     
     	<section class="tools-section tools-section-me" q-show="aboutme">
   	  	
-  	  		<div class="aboutme-wrap" id="js-aboutme">Sheen，&lt;br&gt;生于南下，如今北漂&lt;br&gt;&lt;br&gt;热爱自由放荡不羁，&lt;br/&gt;为自由努力奋斗&lt;br/&gt;&lt;br/&gt;胆小认生，不易相处，&lt;br&gt;年轻无为，卖马为生。</div>
+  	  		<div class="aboutme-wrap" id="js-aboutme">Sheen，&lt;br&gt;生于南下，如今北漂&lt;br&gt;&lt;br&gt;热爱自由放荡不羁，&lt;br/&gt;为自由努力奋斗&lt;br/&gt;&lt;br/&gt;年少无为，我太难了</div>
   	  	
     	</section>
     
