@@ -40,4 +40,30 @@
     
   </entry>
   
+  <entry>
+    <title>Hello World</title>
+    <link href="http://yoursite.com/2019/08/22/hello-world/"/>
+    <id>http://yoursite.com/2019/08/22/hello-world/</id>
+    <published>2019-08-22T13:26:51.239Z</published>
+    <updated>2019-08-26T12:33:45.893Z</updated>
+    
+    <content type="html"><![CDATA[<p>hello-world，又是一个让人感觉回到刚开始学习一门语言的时候的词。</p><p>非常感谢同事推荐了这个平台，不然我也不会知道这个东西。再是感谢遇见西门提供的资料教程。最后是感谢Litten提供的主题，这种风格我很喜欢。再次感谢以上大佬，让我这IT界小白还有机会接触到这个些年头了的东西。</p><p>经过两天折腾，终于把这家伙搭好了。它不是QQ空间，不是朋友圈，不是新浪微博，也不是百度贴吧。一直想搭建一个个人博客，平时都没时间，现在终于实现了。它就是自己开垦出来的一块小小的领地，而我就是这块领地的耕种者，当然我很喜欢这种感觉。</p><p>当我通过努力正式分得这块领地时，我便会开始借助这块领地来耕种出我想要的东西。此时又一个码农诞生了。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;hello-world，又是一个让人感觉回到刚开始学习一门语言的时候的词。&lt;/p&gt;
+&lt;p&gt;非常感谢同事推荐了这个平台，不然我也不会知道这个东西。再是感谢遇见西门提供的资料教程。最后是感谢Litten提供的主题，这种风格我很喜欢。再次感谢以上大佬，让我这IT界小白还有机会接触
+      
+    
+    </summary>
+    
+    
+      <category term="杂谈" scheme="http://yoursite.com/tags/%E6%9D%82%E8%B0%88/"/>
+    
+      <category term="octopress" scheme="http://yoursite.com/tags/octopress/"/>
+    
+  </entry>
+  
 </feed>
